@@ -13,6 +13,7 @@ summary::-webkit-details-marker {
 }
 summary {
     display: block;
+    padding: 2rem 3rem 2rem 0;
     font-weight: 600;
     cursor: pointer;
     position: relative;
@@ -31,7 +32,7 @@ summary::after {
     transform: rotateZ(90deg);
 }
 details p {
-    margin: 0;
+    padding-bottom: 2rem;
 }
 details[open] summary::after {
     display: none;
